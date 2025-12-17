@@ -1,0 +1,46 @@
+.app-container {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.header {
+  background-color: #1e1e1e;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.header h1 {
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.nav-buttons button {
+  background-color: #444;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav-buttons button.active {
+  background-color: #007bff;
+}
+
+.nav-buttons button:hover {
+  background-color: #007bff;
+}
+
+.content {
+  padding: 30px;
+}
